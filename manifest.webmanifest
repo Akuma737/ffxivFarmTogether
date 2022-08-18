@@ -1,0 +1,17 @@
+{
+  "name": "FFXIV farm together",
+  "short_name": "FFXIVf2g",
+  "description": "Final Fantasy XIV tool to list missing mounts and minions to farm for you and your party",
+  "scope": "/ffxivFarmTogether/",
+  "start_url": "/ffxivFarmTogether/",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone", 
+  "icons": [
+      {
+        "src": "/ffxivFarmTogether/img/icon.png",
+        "type": "image/png",
+        "sizes": "700x700"
+      }
+  ]
+}
