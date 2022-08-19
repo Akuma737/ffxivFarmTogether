@@ -10,7 +10,21 @@
 </head>
 <body>
   <h1>FFXIV farm together</h1>
+  <div id="dcSelect">Select your Datacenter: </div>
+
   
+  <script>
+    var dcSelect = document.getElementById("dcSelect");
+    var selectList = document.createElement("select");
+    selectList.id="dcSelector";
+    var array = ["Volvo","Saab","Mercades","Audi"];
+    for (var i = 0; i < array.length; i++) {
+      var option = document.createElement("option");
+      option.value = array[i];
+      option.text = array[i];
+      selectList.appendChild(option);
+    }
+  </script>
   <script>
       if (navigator.serviceWorker) {
         navigator.serviceWorker.register (
