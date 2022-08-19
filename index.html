@@ -17,6 +17,7 @@
     var dcSelect = document.getElementById("dcSelect");
     var selectList = document.createElement("select");
     selectList.id="dcSelector";
+    dcSelect.appendChild(selectList);
     var array = ["Volvo","Saab","Mercades","Audi"];
     for (var i = 0; i < array.length; i++) {
       var option = document.createElement("option");
